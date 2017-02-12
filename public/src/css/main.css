@@ -1,0 +1,72 @@
+.main{
+	width:80%;
+	margin:10px auto;
+}
+.edit-quote{
+	text-align: center; 
+} 
+.quotes{
+	text-align:center;
+}
+.quote{
+	position: relative;
+	display: inline-block;
+	border:solid 1px #ccc;
+	width:calc(25%-40px);
+        min-height: 200px !important;
+	margin: 32px;
+	padding: 16px;
+	vertical-align: top;
+	background: #fff6e0;
+}
+.quote.firt-in-line{
+	margin-left:0;
+}
+.quote.last-in-line{
+	margin-right:0;
+}
+.quote p{
+    padding: 2px;
+    
+}
+.quote .info{
+	padding-top:8px;
+	font-size: 17px;
+	color:#ccc;
+        position: absolute;
+        bottom: 5px;
+}
+.quote.info a{
+	color: #ccc;
+
+}
+.delete{
+	position: absolute;
+	top: 0px;
+	right: 5px;
+}
+.inputgroup{
+	text-align:center;
+	margin:16px 0;
+}
+.inputgroup label{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+.inputgroup input,.inputgroup textarea{
+	border:1px solid #ccc;
+	padding:4px 8px;
+	border-radius: 3px;
+	width:300px;
+}
+.box{
+    font-weight: bolder;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 2px;
+}
+.row{
+	box-shadow:1px 0px 5px;
+	margin-bottom:20px;
+}
